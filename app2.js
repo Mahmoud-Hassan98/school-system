@@ -1,15 +1,16 @@
 // ---------------------------5- Write a function that, takes an array of integers as input------------------------------
-// const arr = [3,4,5,"efefe",6,51,55,60];
-// let newarr=[];
+const arr = [3,4,5,,6];
+let newarr=[];
 
-// arr.forEach( (value)=>{
-//     newarr.push (Math.pow(2, value))
-// })
-// console.log(newarr);
+arr.forEach( (value)=>{
+    newarr.push (Math.pow(2, value))
+})
+console.log(newarr);
 
 
 // ------------------------6- Write a function that, takes an array of numbers ------------------
-// let newarr=arr.map((value)=>{
+//   const arr2 = [3,4,5,,6];
+// let newarr=arr2.map((value)=>{
 //      if(  typeof value ==='string' )
 //     return "N/A";
 //     else if(value%2===0) 
