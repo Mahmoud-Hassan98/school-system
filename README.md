@@ -6,4 +6,4 @@ The tools are:
 * vs code
 * github
 
- [live code  URL](https://mahmoud-hassan98.github.io/Caffe-Z/)
+ [live code  URL](https://mahmoud-hassan98.github.io/school-system/)
