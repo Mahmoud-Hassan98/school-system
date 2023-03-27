@@ -58,31 +58,13 @@ body {
     width: 250px;
     padding: 5px
   }
-  table {
-    border-collapse: collapse;
-    border: 1px solid #333;
-    overflow-x: auto;
-  }
-  table td {
-    border: 1px solid #333;
-padding: 15px;
-background-color: rgb(147, 249, 215);
-  border-spacing: 3px;
-  
-  }
-  
-  table th { 
-    width: 150px;
-    border: 1px solid #333;
-    border: 1px solid;
-    padding: 10px;
-    
-    
-    
-}
+ 
+
+
 #button 
 {
     background-color: aquamarine;
+    
     border-radius: 50px;
 
 }

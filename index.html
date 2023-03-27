@@ -56,35 +56,36 @@
             <input type="radio" value="male" name="name1">
             <label >male</label>
           </div>
+        
             
         <div>
           <label for="phoneNumber">Phone Number:</label>
           <input type="tel" id="phoneNumber" name="phoneNumber" required />
         </div>
-        <div>
-          <label for="grade">Grade:</label>
-          <input type="number" id="grade" name="grade" required />
+        <div class="mb-3">
+          <label >Major :</label>
+          <select  name="Major" required>
+            <option>Administration</option>
+            <option>IT</option>
+            <option>Science</option>
+            <option>Art</option>
+          </select>
         </div>
+        <input
+        type="text"
+        value="Images/user.png"
+        alt="image"
+        id="userimage"
+        name="userimage"
+        placeholder="user_image"
+      />
+
+     
         <button id="button" type="submit">Add Student</button>
       </form>
     </section>
-    <section>
-      <h2>Students List</h2>
-      <table id="Students">
-        <thead>
-          <tr>
-            <th>Full Name</th>
-            <th>Date of Birth</th>                                                     
-            <th>Gender</th>
-            <th>Phone Number</th>
-            <th>Grade</th>
-          </tr>
-        </thead>
-        <tbody id="table">
-     
-        </tbody>
-      </table>
-    </section>
+    <div class="card-container" id="studentInfo"></div>
+
   </main>
 
   <footer >
