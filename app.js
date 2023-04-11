@@ -40,7 +40,10 @@ function Student(name, birth, gender, phone, grade, userimage) {
 }
 
 function render() {
-
+  let previousCards = document.querySelectorAll(".singleCard");
+  for (let i = 0; i < previousCards.length; i++) {
+    previousCards[i].style.display = "none";
+  }
   console.log(previousCards);
   for (let i = 0; i < array.length; i++) {
     let cardContainer = document.getElementById("studentInfo");
